@@ -9,8 +9,25 @@
 body{
     background-color: white;
 }
-li{
+/* li{
     list-style: none;
     cursor: pointer;
     position: relative;
 }
+li:hover::before{
+position: absolute;
+content: '';
+height: 4px;
+width: 100%;
+background: #FF55BB;
+right: 0;
+color:#FF55BB ;
+
+}
+.icon{
+    cursor:pointer;
+}
+
+.card{
+background: #000;
+} */
