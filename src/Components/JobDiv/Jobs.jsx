@@ -61,12 +61,12 @@ const Jobs = () => {
                 <h3 className="text-[16px] font-normal text-slate-400 group-hover:text-white">
                 {title}
                 </h3>
-                <span className="flex items-center text-[#ccc] gap-1 text-sm">
+                <span className="flex items-center text-[#b7b7b7] gap-1 text-sm">
                   <BiTimeFive />
                   {time}
                 </span>
               </span>
-              <h6 className="text-[#ccc]">{location}</h6>
+              <h6 className="text-[#b7b7b7]">{location}</h6>
               <p className="text-[13px] text-[#95959] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white">
                 {desc}
               </p>
