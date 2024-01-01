@@ -32,7 +32,7 @@ const Search = () => {
 
           </div>
 
-          <button type="reset" className='bg-primaryPink h-full py-5 px-10 rounded-[10px] text-white cursor-pointer hover:bg-green-400'>Search</button>
+          <button type="reset" className='bg-primaryPink h-full py-5 px-10 rounded-[10px] text-white cursor-pointer hover:bg-green-800'>Search</button>
         </div>
       </form>
 <div className='flex gap-10 text-center'>
