@@ -1,6 +1,10 @@
 import React from "react";
 import { BiTimeFive } from "react-icons/bi";
 import logo1 from "../../Assets/images (1).jpg";
+import logo2 from "../../Assets/images (1).png";
+import logo3 from "../../Assets/images (2).png";
+import logo4 from "../../Assets/images (3).png";
+
 
 const Data = [
   {
@@ -12,6 +16,36 @@ const Data = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectu quia sapiente consequuntur",
     company: "Novalia Emp Co.",
   },
+
+  {
+    id: 2,
+    image: logo2,
+    title: "UI/UX Designer",
+    time: "Now",
+    location: "UAE",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectu quia sapiente consequuntur",
+    company: "Dravida Fulcov Emp Co.",
+  },
+
+  {
+    id: 3,
+    image: logo3,
+    title: "Data Analys",
+    time: "Now",
+    location: "Canada",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectu quia sapiente consequuntur",
+    company: "Melon City Co.",
+  },
+
+  {
+    id: 4,
+    image: logo4,
+    title: "Back-end Developer",
+    time: "Now",
+    location: "Finland",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectu quia sapiente consequuntur",
+    company: "Carmonda Emp Co.",
+  }
 ];
 
 const Jobs = () => {
