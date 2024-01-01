@@ -19,15 +19,16 @@ position: absolute;
 content: '';
 height: 4px;
 width: 100%;
-background: #FF55BB;
+background: #00A9FF;
 right: 0;
 bottom: -10px;
-color:#FF55BB ;
+color:#00A9FF ;
 
 }
-/* .icon{
+.icon{
     cursor:pointer;
-}
+} 
+/* 
 
 .card{
 background: #000;

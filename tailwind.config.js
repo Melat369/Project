@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors:{
-        'primaryPink':'#451952',
+        'primaryPink':'#00A9FF',
         'secondaryPink':'#FF55BB',
         'grayish':'#F1EFEF',
         'shadowColor':'#F1F1F6'
