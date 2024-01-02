@@ -56,7 +56,7 @@ const Jobs = () => {
         {
         Data.map(({ id, image, title, time, location, desc, company }) => {
           return (
-            <div  key={id}  className="group grpup/item singleJob w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-primaryPink shadow-lg shadow-shadowColor hover:shadow-lg">
+            <div  key={id}  className="group group item singleJob w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-primaryPink shadow-lg shadow-shadowColor hover:shadow-lg">
               <span className="flex justify-between items-center gap-4">
                 <h3 className="text-[16px] font-normal text-slate-400 group-hover:text-white">
                 {title}
@@ -76,7 +76,7 @@ const Jobs = () => {
                  {company}
                 </span>
               </div>
-              <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-normal text-slate-700 hover:bg-white group-hover:/item:text-slate-700 group-hover:text-slate-700">
+              <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-normal text-slate-700 hover:bg-white group-hover:item:text-slate-700 group-hover:text-slate-700">
                 Apply Now
               </button>
             </div>
